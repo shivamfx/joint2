@@ -2,7 +2,7 @@ module.exports = {
 
     'secret': 'ilovescotchyscotch',
 
-    'database': 'mongodb://localhost:27017/Joint',
+    'database': 'mongodb://shivamsharma:wR8d0GlKU61qX1os@cluster0-shard-00-00-7yvql.mongodb.net:27017,cluster0-shard-00-01-7yvql.mongodb.net:27017,cluster0-shard-00-02-7yvql.mongodb.net:27017/admin?readPreference=primary&ssl=true&replicaSet=',
 
     'SMSAuthKey':'176447AS6IGrmN59c9647d',
 
