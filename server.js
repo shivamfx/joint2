@@ -73,7 +73,7 @@ app.use('/api', apiRoutes);
 
 
 //test Api to be put inside route
-var bestdish=require('./app/controllers/BestDishController.js');
+var bestdish=require('./app/controllers/bestdishcontroller');
 apiRoutes.post('/addBestDish',bestdish.addBestDish);
 apiRoutes.get('/getBestDish',bestdish.getBestDish);
 
