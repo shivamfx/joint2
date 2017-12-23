@@ -30,7 +30,7 @@ apiRoutes.post('/unBookMark',bookmark.unBookMark);
 var review=require('../controllers/ReviewsController');
 apiRoutes.post('/addReview',review.addReview);
 
-var bestdish=require('../controllers/BestDishController');
+var bestdish=require('../controllers/BestdishController');
 apiRoutes.post('/addBestDish',bestdish.addBestDish);
 apiRoutes.post('/getBestDish',bestdish.getBestDish);
 apiRoutes.get('/getSingleDishDetails/:id',bestdish.getSingleDishDetails);
