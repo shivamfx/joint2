@@ -2,7 +2,7 @@ module.exports = {
 
     'secret': 'ilovescotchyscotch',
 
-    'database': 'mongodb://shivamsharma:wR8d0GlKU61qX1os@cluster0-shard-00-00-7yvql.mongodb.net:27017,cluster0-shard-00-01-7yvql.mongodb.net:27017,cluster0-shard-00-02-7yvql.mongodb.net:27017/admin?readPreference=primary&ssl=true&replicaSet=',
+    'database': 'mongodb://shivamsharma:ek0JTrxI4qqhT6yg@cluster0-shard-00-00-7yvql.mongodb.net:27017,cluster0-shard-00-01-7yvql.mongodb.net:27017,cluster0-shard-00-02-7yvql.mongodb.net:27017/joint?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin',
 
     'SMSAuthKey':'176447AS6IGrmN59c9647d',
 
