@@ -73,12 +73,12 @@ app.use('/api', apiRoutes);
 
 
 //test Api to be put inside route
-var bestdish=require('./app/controllers/Bestdishcontroller');
+var bestdish=require('./app/controllers/BestdishController');
 apiRoutes.post('/addBestDish',bestdish.addBestDish);
 apiRoutes.get('/getBestDish',bestdish.getBestDish);
 
 //Register[no authentication middleware interfere]
-var user=require('./app/controllers/userController');
+var user=require('./app/controllers/UserController');
 apiRoutes.post('/addAccount',user.addAccount);
 
 //Authentication[no authentication middleware interfere]
